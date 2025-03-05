@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
-# AUTHOR: your name
-# FILENAME: title of the source file
+# AUTHOR: Ryan Dautel
+# FILENAME: decision_tree_2_RD
 # SPECIFICATION: description of the program
 # FOR: CS 4210- Assignment #2
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 40 minutes
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: DO NOT USE ANY ADVANCED PYTHON LIBRARY TO COMPLETE THIS CODE SUCH AS numpy OR pandas. You have to work here only with standard
@@ -101,7 +101,7 @@ for ds in dataSets:
     for i in accuracy_per_test:
         avg_acc+= i/len(accuracy_per_test)
 
-    print("Overall Accuracy for current training file: " + str(avg_acc))
+    print("Overall Accuracy for "+str(ds)+" :" + str(avg_acc))
            #Compare the prediction with the true label (located at data[4]) of the test instance to start calculating the accuracy.
            #--> add your Python code here
 
