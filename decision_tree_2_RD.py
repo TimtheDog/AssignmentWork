@@ -14,7 +14,7 @@ from sklearn import tree
 import csv
 
 dataSets = ['contact_lens_training_1.csv', 'contact_lens_training_2.csv', 'contact_lens_training_3.csv']
-accuracy_per_file = []
+
 for ds in dataSets:
 
     dbTraining = []
